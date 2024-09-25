@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body { 
-    background: url(https://cdn.pixabay.com/animation/2022/10/22/02/02/02-02-15-444_512.gif);
+    background: url(https://i.pinimg.com/originals/96/df/d4/96dfd411ab0e68f8bc1eb47e4eee8771.gif);
     background-size: cover;
 }
 .card {
     margin: 25px auto;
     width: 90%;
+    height: auto;
     max-width: 470px;
     background: url(https://img95.lovepik.com/photo/40104/2779.gif_wh300.gif);
     background-size: cover;
@@ -120,6 +121,24 @@ body {
 }
 
 
+.forecast {
+    
+}
+
+.forecast-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+.forecast-item img {
+    width: 40px;
+}
+
+
 
 /* Media query for tablets */
 @media (min-width: 600px) {
@@ -127,8 +146,8 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh; 
-        overflow: hidden;
+        /* height: 100vh;  */
+        /* overflow: hidden; */
     
     }
 
@@ -165,8 +184,8 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh; 
-        overflow: hidden;
+        /* height: 100vh;  */
+        /* overflow: hidden; */
     
     }
 
@@ -198,9 +217,9 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh; 
+        /* height: 100vh; 
         overflow: hidden;
-    
+     */
     }
 
     .card {
